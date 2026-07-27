@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.25rem;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 1rem 2rem;
+}
+
+.title {
+    /* border: 1px solid red; */
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+}
+
+.main-body {
+    /* border: 2px solid cyan; */
+    padding: 1rem;
+
+}
+
+#universe {
+    /* border: 1px solid blue; */
+}
+
+#characteris {
+    margin: 0.5rem 0;
+    /* border: 1px solid blue; */
+}
+
+#characteris p {
+    padding-bottom: 0.25rem;
+}
+
+#hint-cont {
+    /* border: 2px solid green; */
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-btn button {
+    margin: 0.5rem 0;
+    padding: 0.45rem 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.main-body button {
+    margin: 0.5rem 0;
+    padding: 0.25rem 0.35rem;
+    border-radius: 0.25rem;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    background-color: orange;
+}
+
+input {
+    width: 60%;
+    padding: 0.25rem;
+}
+
+#guess-field {
+    /* border: 2px solid orange; */
+    margin: 0.45rem 0;
+}
+
+#guess-field h3 {
+    padding-bottom: 0.45rem;
+}
+
+.hide {
+    display: none;
+}

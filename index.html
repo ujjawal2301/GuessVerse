@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Guess The Character</h1>
+        </div>
+        <div class="start-btn">
+            <button>Start Game</button>
+        </div>
+        <div class="main-body hide">
+            <div id="universe">
+                <p><b>Universe:</b> <span></span></p>
+            </div>
+            <div id="characteris">
+                <p><b>Characteristics:</b></p>
+                <ul></ul>
+            </div>
+            <div id="hint-cont">
+                <p><b>Hint Remaining:</b><span> 3</span></p>
+                <button id="getHint">Get Hint</button>
+                <ul></ul>
+            </div>
+            <div id="guess-field">
+                <h3>Who am I?</h3>
+                <input type="text" placeholder="Enter Character full Name...">
+                <button id="guess">Guess</button>
+                
+            </div>
+            <div id="result">
+                <p></p>
+            </div>
+            <div id="choice">
+                <button id="newCharac">New Character</button>
+                <button id="tryAgain">Try Again</button>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

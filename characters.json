@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Naruto Uzumaki",
+    "universe": "Naruto",
+    "characteristics": [
+      "Male",
+      "Shinobi",
+      "Has immense chakra reserves"
+    ],
+    "hints": [
+      "I was often treated as an outcast during my childhood.",
+      "I am a jinchuriki.",
+      "My signature technique is the Rasengan."
+    ]
+  },
+
+  {
+    "name": "Itachi Uchiha",
+    "universe": "Naruto",
+    "characteristics": [
+      "Male",
+      "Shinobi",
+      "Possesses powerful visual abilities"
+    ],
+    "hints": [
+      "I became exceptionally skilled at a very young age.",
+      "I was a member of the Akatsuki.",
+      "I am Sasuke Uchiha's older brother."
+    ]
+  },
+
+  {
+    "name": "Kakashi Hatake",
+    "universe": "Naruto",
+    "characteristics": [
+      "Male",
+      "Shinobi",
+      "Usually keeps part of his face covered"
+    ],
+    "hints": [
+      "I became a Jonin at a very young age.",
+      "I am famous for copying many techniques.",
+      "I was the leader of Team 7."
+    ]
+  },
+
+  {
+    "name": "Monkey D. Luffy",
+    "universe": "One Piece",
+    "characteristics": [
+      "Male",
+      "Pirate",
+      "Has unusual physical abilities"
+    ],
+    "hints": [
+      "Freedom is extremely important to me.",
+      "I wear a straw hat.",
+      "I want to become the King of the Pirates."
+    ]
+  },
+
+  {
+    "name": "Roronoa Zoro",
+    "universe": "One Piece",
+    "characteristics": [
+      "Male",
+      "Pirate",
+      "Fights primarily using weapons"
+    ],
+    "hints": [
+      "I have a terrible sense of direction.",
+      "I dream of becoming the world's greatest swordsman.",
+      "I fight using three swords."
+    ]
+  },
+
+  {
+    "name": "Sanji",
+    "universe": "One Piece",
+    "characteristics": [
+      "Male",
+      "Pirate",
+      "Usually fights without using his hands"
+    ],
+    "hints": [
+      "Cooking is extremely important to me.",
+      "I dream of finding the All Blue.",
+      "I am the cook of the Straw Hat Pirates."
+    ]
+  },
+
+  {
+    "name": "Iron Man",
+    "universe": "Marvel",
+    "characteristics": [
+      "Male",
+      "Human",
+      "Relies heavily on advanced technology"
+    ],
+    "hints": [
+      "I am extremely wealthy and intelligent.",
+      "I created a powerful armored suit.",
+      "My real name is Tony Stark."
+    ]
+  },
+  
+  {
+    "name": "Thor",
+    "universe": "Marvel",
+    "characteristics": [
+      "Male",
+      "Superhuman",
+      "Possesses immense physical strength"
+    ],
+    "hints": [
+      "I come from a realm beyond Earth.",
+      "I can control lightning.",
+      "I am the God of Thunder."
+    ]
+  },
+  
+  {
+    "name": "Spider-Man",
+    "universe": "Marvel",
+    "characteristics": [
+      "Male",
+      "Human with enhanced abilities",
+      "Known for exceptional agility"
+    ],
+    "hints": [
+      "I usually operate in New York City.",
+      "I can stick to walls.",
+      "My real name is Peter Parker."
+    ]
+  },
+  
+  {
+    "name": "Thanos",
+    "universe": "Marvel",
+    "characteristics": [
+      "Male",
+      "Extraterrestrial",
+      "Possesses extraordinary strength"
+    ],
+    "hints": [
+      "I believe my actions are necessary for balance.",
+      "I sought six extremely powerful objects.",
+      "I used the Infinity Gauntlet."
+    ]
+  }
+]
