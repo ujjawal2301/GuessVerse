@@ -86,3 +86,17 @@ input {
 .hide {
     display: none;
 }
+
+#getHint {
+    position: relative;
+    padding: 0.25rem 0.5rem;
+}
+
+#getHint span{
+    background-color: green;
+    color: white;
+    padding: 0.1rem;
+    border-radius: 30%;
+    position: absolute;
+    top: -10px;
+}
