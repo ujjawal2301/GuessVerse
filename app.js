@@ -4,6 +4,7 @@ let universe = document.querySelector("#universe span");
 let characList = document.querySelector("#characteris ul");
 let hintList = document.querySelector("#hint-cont ul");
 let hintBtn = document.querySelector("#getHint");
+let hintBadge = document.querySelector("#getHint span");
 let newCharacBtn = document.querySelector("#newCharac");
 let userInput = document.querySelector("#guess-field input");
 let guessBtn = document.querySelector("#guess");
@@ -17,6 +18,7 @@ startBtn.addEventListener("click", () => {
 });
 
 newCharacBtn.addEventListener("click", () => {
+    // characList = [];
     startGame();
 });
 
@@ -27,6 +29,7 @@ async function getCharcter() {
 }
 
 function startGame() {
+
     getCharcter().then((resolve) => {
         let randomNum = Math.floor(Math.random() * 10);
         // console.log(randomNum);
@@ -36,7 +39,6 @@ function startGame() {
 
         getCharacteristics(resolve[randomNum].characteristics);
         getHint(resolve[randomNum].hints);
-
         guessBtn.addEventListener("click", () => {
             showGuessResult(userInput.value, gameGuess);
         });
@@ -67,13 +69,14 @@ function getCharacteristics(datas) {
     }
 }
 
-function getHint(hints) {
+function getHint(hintsList) {
+    let attempt = 3;
     hintBtn.addEventListener('click', () => {
-        for (hint of hints) {
-            let li = document.createElement("li");
-            li.innerText = hint;
-            hintList.appendChild(li);
-        }
-        // hints = "";
+        if (attempt == 0) return "false";
+        attempt--;
+        let li = document.createElement("li");
+        li.innerText = hintsList[attempt];
+        hintList.appendChild(li);
+        hintBadge.innerText = attempt;
     });
 }
