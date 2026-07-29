@@ -2,13 +2,42 @@ let startBtn = document.querySelector(".start-btn button");
 let mainBody = document.querySelector(".main-body");
 let universe = document.querySelector("#universe span");
 let characList = document.querySelector("#characteris ul");
+
 let hintList = document.querySelector("#hint-cont ul");
 let hintBtn = document.querySelector("#getHint");
 let hintBadge = document.querySelector("#getHint span");
 let newCharacBtn = document.querySelector("#newCharac");
 let userInput = document.querySelector("#guess-field input");
 let guessBtn = document.querySelector("#guess");
-let result = document.querySelector("#result p");
+let result = document.querySelector(".result-container p");
+let wngResult = document.querySelector("#wrongResult p");
+let exitResultsIcon = document.querySelector(".result-container i");
+// let show = document.querySelector("#show");
+let conta = document.querySelector("#image-cont");
+
+let imgContParent = conta.parentElement;
+
+let currentHints = [];
+let attempt = 3;
+let gameGuess = "";
+
+// keep it to style this section it help
+// show.addEventListener("click", () => {
+//     let body = document.querySelector("body");
+//     parent.classList.remove("hide");
+// });
+
+exitResultsIcon.addEventListener("click", () => {
+    userInput.value = "";
+    imgContParent.classList.add("hide");              
+    resetPreviousData(characList);
+    startGame();
+});
+
+function resetPreviousData(list) {
+    characList.innerHTML = "";
+    hintList.innerHTML = "";
+}
 
 startBtn.addEventListener("click", () => {
     let parent = startBtn.parentElement;
@@ -18,8 +47,11 @@ startBtn.addEventListener("click", () => {
 });
 
 newCharacBtn.addEventListener("click", () => {
-    // characList = [];
+    userInput.value = "";
+    wngResult.innerText = "";
+    resetPreviousData(characList);
     startGame();
+
 });
 
 async function getCharcter() {
@@ -29,27 +61,49 @@ async function getCharcter() {
 }
 
 function startGame() {
-
     getCharcter().then((resolve) => {
+        attempt = 3;
         let randomNum = Math.floor(Math.random() * 10);
         // console.log(randomNum);
-        let gameGuess = resolve[randomNum].name;
-
+        gameGuess = resolve[randomNum].name;
         universe.innerText = resolve[randomNum].universe;
-
         getCharacteristics(resolve[randomNum].characteristics);
         getHint(resolve[randomNum].hints);
-        guessBtn.addEventListener("click", () => {
-            showGuessResult(userInput.value, gameGuess);
-        });
+
     });
 }
+
+guessBtn.addEventListener("click", () => {
+    if (showGuessResult(userInput.value, gameGuess)) {
+        wngResult.innerText = "";
+        imgContParent.classList.remove("hide");               
+    } else {
+        wngResult.innerText = "Your Guess is not correct, try again."
+    }
+});
+
+function getHint(hintsList) {
+    currentHints = hintsList;
+    attempt = 3;
+    hintBadge.innerText = attempt;
+}
+
+hintBtn.addEventListener('click', () => {
+    if (attempt == 0) return "false";
+    attempt--;
+    let li = document.createElement("li");
+    li.innerText = currentHints[attempt];
+    hintList.appendChild(li);
+    hintBadge.innerText = attempt;
+});
 
 function showGuessResult(userGuess, gameGuess) {
     if (checkGuess(userGuess, gameGuess)) {
         result.innerText = "You Guess Correct.";
+        return true;
     } else {
         result.innerText = "Your Guess is not Correct, try again.";
+        return false;
     }
 }
 
@@ -69,14 +123,4 @@ function getCharacteristics(datas) {
     }
 }
 
-function getHint(hintsList) {
-    let attempt = 3;
-    hintBtn.addEventListener('click', () => {
-        if (attempt == 0) return "false";
-        attempt--;
-        let li = document.createElement("li");
-        li.innerText = hintsList[attempt];
-        hintList.appendChild(li);
-        hintBadge.innerText = attempt;
-    });
-}
+

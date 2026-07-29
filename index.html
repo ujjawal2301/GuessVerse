@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GuessVerse</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -33,15 +36,23 @@
                 <h3>Who am I?</h3>
                 <input type="text" placeholder="Enter Character full Name...">
                 <button id="guess">Guess</button>
-                
+
             </div>
-            <div id="result">
+            <div id="wrongResult">
                 <p></p>
             </div>
             <div id="choice">
                 <button id="newCharac">New Character</button>
-                <button id="tryAgain">Try Again</button>
+                <!-- <button id="show">show</button> -->
             </div>
+        </div>
+        <div class="result-container hide">
+            <i class="fa-solid fa-x"></i>
+            <div id="image-cont">
+                <img src="https://i.pinimg.com/736x/7e/03/cc/7e03cce0a2f0fad30cddeaed75940b8b.jpg">
+            </div>
+
+            <p></p>
         </div>
     </div>
     <script src="app.js"></script>
