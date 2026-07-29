@@ -3,68 +3,64 @@
     "name": "Naruto Uzumaki",
     "universe": "Naruto",
     "characteristics": [
-      "Male",
-      "Shinobi",
+      "Genin",
+      "Wind style user",
       "Has immense chakra reserves"
     ],
     "hints": [
-      "I was often treated as an outcast during my childhood.",
+      "I am one of Kage",
       "I am a jinchuriki.",
-      "My signature technique is the Rasengan."
+      "I was often treated as an outcast during my childhood."
     ]
   },
-
   {
     "name": "Itachi Uchiha",
     "universe": "Naruto",
     "characteristics": [
-      "Male",
-      "Shinobi",
+      "Uchiha",
+      "orange susano",
       "Possesses powerful visual abilities"
     ],
     "hints": [
+      "I was in anbu cop, where kakashi was my Team member.",
       "I became exceptionally skilled at a very young age.",
-      "I was a member of the Akatsuki.",
-      "I am Sasuke Uchiha's older brother."
+      "I have Mangekyo Sharingan."
     ]
   },
-
   {
     "name": "Kakashi Hatake",
     "universe": "Naruto",
     "characteristics": [
-      "Male",
-      "Shinobi",
-      "Usually keeps part of his face covered"
+      "Jonin",
+      "Earth style user",
+      "Bodyguard of hokage"
     ],
     "hints": [
-      "I became a Jonin at a very young age.",
       "I am famous for copying many techniques.",
-      "I was the leader of Team 7."
+      "I got mangekyo sharingan",
+      "I became a Jonin at a very young age."
     ]
   },
-
   {
     "name": "Monkey D. Luffy",
     "universe": "One Piece",
     "characteristics": [
-      "Male",
       "Pirate",
+      "straw hat crew member",
       "Has unusual physical abilities"
     ],
     "hints": [
-      "Freedom is extremely important to me.",
       "I wear a straw hat.",
-      "I want to become the King of the Pirates."
+      "I eat devil fruit",
+      "Freedom is extremely important to me."
     ]
   },
-
   {
     "name": "Roronoa Zoro",
     "universe": "One Piece",
     "characteristics": [
-      "Male",
       "Pirate",
+      "straw hat crew member",
       "Fights primarily using weapons"
     ],
     "hints": [
@@ -73,13 +69,12 @@
       "I fight using three swords."
     ]
   },
-
   {
     "name": "Sanji",
     "universe": "One Piece",
     "characteristics": [
       "Male",
-      "Pirate",
+      "straw hat crew member",
       "Usually fights without using his hands"
     ],
     "hints": [
@@ -88,64 +83,61 @@
       "I am the cook of the Straw Hat Pirates."
     ]
   },
-
   {
     "name": "Iron Man",
     "universe": "Marvel",
     "characteristics": [
-      "Male",
+      "Engineer",
       "Human",
       "Relies heavily on advanced technology"
     ],
     "hints": [
-      "I am extremely wealthy and intelligent.",
-      "I created a powerful armored suit.",
-      "My real name is Tony Stark."
+      "I am extremely genius and intelligent.",
+      "I made mad titan bleed",
+      "I fought with hulk and defeat him."
     ]
   },
-  
   {
     "name": "Thor",
     "universe": "Marvel",
     "characteristics": [
-      "Male",
-      "Superhuman",
+      "God",
+      "strongest OG avenger",
       "Possesses immense physical strength"
     ],
     "hints": [
-      "I come from a realm beyond Earth.",
-      "I can control lightning.",
-      "I am the God of Thunder."
+      "I am the God of Thunder.",
+      "I am odinson",
+      "I come from a realm beyond Earth."
     ]
   },
-  
   {
     "name": "Spider-Man",
     "universe": "Marvel",
     "characteristics": [
-      "Male",
-      "Human with enhanced abilities",
+      "young avenger",
+      "Enhanced Human",
       "Known for exceptional agility"
     ],
     "hints": [
-      "I usually operate in New York City.",
       "I can stick to walls.",
-      "My real name is Peter Parker."
+      "With Great powers comes great responsibilities",
+      "I usually operate in New York City."
     ]
   },
-  
   {
     "name": "Thanos",
     "universe": "Marvel",
     "characteristics": [
-      "Male",
+      "Antagonist",
       "Extraterrestrial",
       "Possesses extraordinary strength"
     ],
     "hints": [
-      "I believe my actions are necessary for balance.",
+      "I used the Infinity Gauntlet.",
       "I sought six extremely powerful objects.",
-      "I used the Infinity Gauntlet."
+      "I believe my actions are necessary for balance."
+      
     ]
   }
 ]
