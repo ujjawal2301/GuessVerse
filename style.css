@@ -9,11 +9,13 @@ body {
     align-items: center;
     min-height: 100vh;
     font-size: 1.25rem;
+    background-image: url("assets/bg.jpg");
 }
 
 .container {
     border: 2px solid black;
     padding: 1rem 2rem;
+    background-color: white;
 }
 
 .title {
