@@ -15,28 +15,70 @@ body {
 .container {
     border: 2px solid black;
     padding: 1rem 2rem;
+    /* background-color: white; */
+}
+
+.gameTitle {
     background-color: white;
+    padding: 0.45rem 1.25rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
 }
 
 .title {
     /* border: 1px solid red; */
     padding: 0 0.5rem;
     margin: 1rem 0;
+    width: 43rem;
+    
+}
+
+.main-head {
+    border: 2px solid red;
+    padding: 1rem;
+    text-align: center;
+}
+
+#universe p{
+    /* padding-left: 0.7rem; */
 }
 
 .main-body {
     /* border: 2px solid cyan; */
     padding: 1rem;
-
 }
+
+#wrongResult p{
+    padding: 0.7rem 0 0 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #universe {
     /* border: 1px solid blue; */
 }
 
 #characteris {
-    margin: 0.5rem 0;
-    /* border: 1px solid blue; */
+    width: 40%;
+    padding: 1rem;
+    /* margin: 0.5rem 0; */
+    border: 1px solid blue;
 }
 
 #characteris p {
@@ -44,7 +86,20 @@ body {
 }
 
 #hint-cont {
-    /* border: 2px solid green; */
+    width: 60%;
+    padding: 1rem;
+    border: 2px solid green;
+}
+
+.main-mid {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.main-bottom {
+    border: 2px solid yellow;
+    padding: 1rem 1.3rem;
+    text-align: center;
 }
 
 .start-btn {
@@ -83,6 +138,7 @@ input {
 
 #guess-field h3 {
     padding-bottom: 0.45rem;
+    /* text-align: center; */
 }
 
 .hide {
