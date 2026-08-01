@@ -39,6 +39,8 @@ body {
     border: 2px solid red;
     padding: 1rem;
     text-align: center;
+    background-color: cyan;
+    border-radius: 1rem;
 }
 
 #universe p{
@@ -77,8 +79,11 @@ body {
 #characteris {
     width: 40%;
     padding: 1rem;
-    /* margin: 0.5rem 0; */
+    padding-left: 1.5rem;
+    margin-right: 1rem;
     border: 1px solid blue;
+     background-color: yellow;
+    border-radius: 1rem;
 }
 
 #characteris p {
@@ -88,7 +93,10 @@ body {
 #hint-cont {
     width: 60%;
     padding: 1rem;
+     padding-left: 1.5rem;
     border: 2px solid green;
+     background-color: magenta;
+    border-radius: 1rem;
 }
 
 .main-mid {
@@ -100,6 +108,8 @@ body {
     border: 2px solid yellow;
     padding: 1rem 1.3rem;
     text-align: center;
+    background-color: brown;
+    border-radius: 1rem;
 }
 
 .start-btn {
