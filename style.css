@@ -15,7 +15,6 @@ body {
 .container {
     border: 2px solid black;
     padding: 1rem 2rem;
-    /* background-color: white; */
 }
 
 .gameTitle {
@@ -28,19 +27,17 @@ body {
 }
 
 .title {
-    /* border: 1px solid red; */
     padding: 0 0.5rem;
     margin: 1rem 0;
     width: 43rem;
-    
 }
 
 .main-head {
-    border: 2px solid red;
     padding: 1rem;
     text-align: center;
-    background-color: cyan;
-    border-radius: 1rem;
+    color: #18455A;
+    background-color: #E0E4E9;
+    border-radius: 0.5rem;
 }
 
 #universe p{
@@ -48,29 +45,12 @@ body {
 }
 
 .main-body {
-    /* border: 2px solid cyan; */
     padding: 1rem;
 }
 
 #wrongResult p{
     padding: 0.7rem 0 0 0.7rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #universe {
     /* border: 1px solid blue; */
@@ -81,9 +61,8 @@ body {
     padding: 1rem;
     padding-left: 1.5rem;
     margin-right: 1rem;
-    border: 1px solid blue;
-     background-color: yellow;
-    border-radius: 1rem;
+     background-color: #DBE4EE;
+    border-radius: 0.5rem;
 }
 
 #characteris p {
@@ -94,9 +73,8 @@ body {
     width: 60%;
     padding: 1rem;
      padding-left: 1.5rem;
-    border: 2px solid green;
-     background-color: magenta;
-    border-radius: 1rem;
+     background-color: #DBE4EE;
+    border-radius: 0.5rem;
 }
 
 .main-mid {
@@ -105,11 +83,10 @@ body {
 }
 
 .main-bottom {
-    border: 2px solid yellow;
     padding: 1rem 1.3rem;
     text-align: center;
-    background-color: brown;
-    border-radius: 1rem;
+    background-color: #DBE4EE;
+    border-radius: 0.5rem;
 }
 
 .start-btn {
@@ -142,13 +119,11 @@ input {
 }
 
 #guess-field {
-    /* border: 2px solid orange; */
     margin: 0.45rem 0;
 }
 
 #guess-field h3 {
     padding-bottom: 0.45rem;
-    /* text-align: center; */
 }
 
 .hide {
